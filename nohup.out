@@ -1,0 +1,24 @@
+[I 2021-09-09 14:11:49.503 ServerApp] jupyterlab | extension was successfully linked.
+[W 2021-09-09 14:11:49.505 NotebookApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-09 14:11:49.505 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-09 14:11:49.505 NotebookApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-09-09 14:11:49.662 ServerApp] nbclassic | extension was successfully linked.
+[W 2021-09-09 14:11:49.693 ServerApp] WARNING: The Jupyter server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 2021-09-09 14:11:49.697 ServerApp] nbclassic | extension was successfully loaded.
+[I 2021-09-09 14:11:49.698 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.8/site-packages/jupyterlab
+[I 2021-09-09 14:11:49.698 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 2021-09-09 14:11:49.700 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2021-09-09 14:11:49.700 ServerApp] Serving notebooks from local directory: /workspace/Docker/kaggle
+[I 2021-09-09 14:11:49.700 ServerApp] Jupyter Server 1.9.0 is running at:
+[I 2021-09-09 14:11:49.701 ServerApp] http://songhunComputer:6822/lab
+[I 2021-09-09 14:11:49.701 ServerApp]  or http://127.0.0.1:6822/lab
+[I 2021-09-09 14:11:49.701 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2021-09-09 14:11:49.703 ServerApp] No web browser found: could not locate runnable browser.
+[I 2021-09-09 14:11:59.206 ServerApp] 302 GET / (192.168.0.1) 0.49ms
+[W 2021-09-09 14:12:01.208 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2021-09-09 14:12:01.484 ServerApp] 404 GET /api/contents/Docker/test/kaggleAPI.ipynb?content=0&1631196721465 (192.168.0.1): No such file or directory: Docker/test/kaggleAPI.ipynb
+[W 2021-09-09 14:12:01.485 ServerApp] No such file or directory: Docker/test/kaggleAPI.ipynb
+[W 2021-09-09 14:12:01.485 ServerApp] 404 GET /api/contents/Docker/test/kaggleAPI.ipynb?content=0&1631196721465 (192.168.0.1) 1.02ms referer=http://songai.iptime.org:6822/lab?
+[W 2021-09-09 14:12:02.055 ServerApp] 404 GET /api/contents/Docker/yolov5_seoul/yolov5/runs/train/seoul_change_semiTest/weights?1631196722054 (192.168.0.1): No such file or directory: Docker/yolov5_seoul/yolov5/runs/train/seoul_change_semiTest/weights
+[W 2021-09-09 14:12:02.055 ServerApp] No such file or directory: Docker/yolov5_seoul/yolov5/runs/train/seoul_change_semiTest/weights
+[W 2021-09-09 14:12:02.055 ServerApp] 404 GET /api/contents/Docker/yolov5_seoul/yolov5/runs/train/seoul_change_semiTest/weights?1631196722054 (192.168.0.1) 0.46ms referer=http://songai.iptime.org:6822/lab?
